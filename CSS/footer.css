@@ -1,0 +1,55 @@
+footer{
+    font-size: 20px;
+    background-image: url(../IMG/banner_top.png);
+    background-color: black;
+    background:cover;
+ letter-spacing: 4px;
+    border-style: solid;
+    border-color: white;
+}
+.fot{
+ text-align: center;
+       font-size: 30px;
+    
+
+}
+
+.Copyright{
+    text-align: left;
+    color: white;
+font-size: 15px; 
+    left: -10px;
+    position: relative;
+    top:10px;
+    
+ 
+}
+a.foot:hover{
+    color:yellow;
+    text-decoration: none;
+}
+@media (max-width: 992px){
+       .fot{font-size: 25px;}
+
+        .Copyright{font-size: 20px;position: absolute; left: 5px; top: 90px;}
+    footer{    height: 134px;}
+
+}
+
+
+    
+@media (max-width: 576px)
+{
+   .fot{font-size: 20px;}
+    .Copyright{font-size: 10px;position: absolute; left: 5px; top: 60px;}
+    footer{    height: 120px;}
+
+}
+
+@media (max-width: 375px){
+    
+       .fot{font-size: 10px;}
+    .Copyright{font-size: 10px;position: absolute; left: 5px; top: 95px;}
+    
+    
+}

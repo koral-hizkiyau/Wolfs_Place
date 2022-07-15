@@ -1,0 +1,122 @@
+
+
+
+
+* {box-sizing:border-box}
+.plus1{
+    border-style:ridge;
+    color:black;
+    border-color: lightgray;
+    border-width: 6px;
+    display: inline-block;
+    font-size: 60px;
+    text-align: center;
+  letter-spacing: 3px;
+    line-height: 1.4em;
+    font-weight: bold;
+    background-color: white;
+    width: 100%;
+
+}
+
+.plus{
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+.gif1{
+    position: absolute;
+    left: -350px;
+    top: 100px;
+    
+}
+.gif2{
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    
+}
+.but{
+        color:aliceblue;
+    background-color: rgb(76 0 0);
+    background-size: cover;
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    border: 18px  color:aliceblue;
+        border-radius: 12px;
+      margin: 4px 2px;
+    display: inline-block;
+ 
+width: 100%;}
+
+.people3{
+    display: none;
+}
+.carousel-inner{margin: auto;}
+.carousel-control-prev,.carousel-control-next{
+    height: 10%;
+}
+#scroll-up{
+position: absolute;
+    width: 15%;
+    left: 10px;
+    top: 1520px;
+  
+}
+.hide-arrow{
+    color: white;
+    font-weight: bold;
+   position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 1470px; 
+  display:none;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+#scroll-up:hover .hide-arrow {
+  display: block;
+}
+#scroll-up:hover{
+  background-color: rgb(76,0,0);
+}
+
+@media (max-width: 1200px) { 
+    .gif1,.gif2{ display: none;}
+   #scroll-up{top:1525px;width: 20%}
+    .hide-arrow{top:1475px;font-size: 30px;}
+ 
+}
+
+@media (max-width: 992px){
+    .plus1{font-size: 30px;}
+    input{display: block;}
+        .gif1,.gif2{display: none;}
+    #scroll-up{top:1400px;width: 20%}
+    .hide-arrow{top:1355px;}
+
+}
+
+@media (max-width: 576px){
+    .plus1{width: 95%; display: block;}
+    .people4{display: none;}
+    .people3{display: block; width: 100%;; height: 803px;}
+    input{margin: auto;}
+    #scroll-up{top:1315px;width: 20%}
+    .hide-arrow{top:1275px;font-size: 25px; left:2px;}
+}
+
+@media (max-width: 375px){
+    
+        .plus{width:95%; display: block;}
+    .plus1{width:100%}
+        .people4{display: none;}
+    .people3{display: block; width: 100%;; height: 803px;}
+        input{margin: auto;}
+ .carousel-control-next-icon,.carousel-control-prev-icon
+    {display: none;}
+    .carousel-control-next,.carousel-control-prev{display: none;}
+        #scroll-up{top:1485px;width: 30%}
+    .hide-arrow{top:1435px;font-size: 25px;}
+}
+

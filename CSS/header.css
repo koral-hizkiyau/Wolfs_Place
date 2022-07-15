@@ -1,0 +1,138 @@
+.h1 {
+    position: absolute;
+    color:white;
+    left: 40px;
+    font-family: 'Fredericka the Great', cursive;
+  top:90px;
+    font-size: 130px;
+text-align: left;
+   
+}
+* {box-sizing:border-box}
+
+.second{
+      position: absolute;
+    color:white;
+    left: 990px;
+    top:700px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 130px;
+text-align: right;  
+
+    
+}
+
+
+.img-logo{
+    
+}
+.img4{
+    display: inline-block;
+  
+}
+.text1{
+    position: absolute;
+    color: black;
+    left: 110px;
+    top: 270px;
+    letter-spacing: 0.3em;
+    font-size: 55px;
+    text-align: center;
+    line-height: 3.0;
+    font-weight:bolder;
+    font-family: 'Fredericka the Great', cursive;
+  text-shadow: 2px 2px #FF0000;
+
+}
+.img-logo2{
+  display:none;
+ }
+ 
+h2{
+    color:rgb(76	0	0);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    position: relative;
+    left:1470px;
+    display: inline-block;
+}
+
+
+
+a.h2:hover{
+color:rgb(76	0	0);
+    text-decoration: none;
+    background-color: white;
+}
+a.h2{
+    color:white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll{
+    position: absolute;
+left:450px;
+   top:425px; 
+    width: 15%;
+}
+.scroll:hover{
+  background-color: rgb(76,0,0);
+}
+.show2{color: white;
+position:absolute;
+top:350px;
+font-size: 20px;
+left: 440px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+.show2, .scroll:hover>.scroll {
+	display: none;
+}
+
+.scroll:hover>.show2 {
+	display: block;
+}
+
+@media (max-width: 1200px) { 
+    .h1{font-size: 80px; top: 110px;}
+ .second{font-size: 80px;text-align: left; left: 610px;
+    top:800px;}
+    .scroll{top:425px;width: 20%;left: 10px;}
+    .show2{left: 70px;top:428px;}
+}
+
+@media (max-width: 992px){
+    .h1{font-size: 60px; top: 110px;}
+  .second{font-size: 60px;text-align: left; left: 560px;
+    top:800px;}
+        .text1{font-size: 55px;line-height: 1.7;letter-spacing: 0.1em;left: 50px;}
+    h2{ display: none;}
+    .show2{top:400px;}
+}
+
+
+@media (max-width: 576px)
+{ 
+    .h1{font-size: 40px; top: 80px;}
+    .second{font-size: 40px;text-align: left; left: 280px;
+    top:780px;}
+    .text1{font-size: 35px;line-height: 1.7;letter-spacing: 0.1em;left: 50px;}
+    h2{display: none;}
+    .img-logo1{display: none;}
+    .img-logo2{display: block; width: 100%; height: 803px;}
+    .scroll,.show2{display: none;}
+}
+
+@media (max-width: 375px){
+        .h1{font-size: 40px; top: 780px; left: 70px;}
+    .second{font-size: 40px; left: 50px;top: 825px;}
+    .img-logo1{display: none;}
+    .img-logo2{display: block; width: 100%;; height: 803px;}
+    .text1{font-size: 35px;line-height: 3;letter-spacing: 0.3em;left: -5px;}
+    
+
+}

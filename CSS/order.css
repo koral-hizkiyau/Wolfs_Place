@@ -1,0 +1,264 @@
+h3{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+        color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+.order2{
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+    border-color: white;
+    border-width: medium;
+            color: white;
+  text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+padding-right: 10px;
+position: relative;
+left: 400px;}
+
+legend{
+    font-size: 45px;
+    text-align: center;
+    border: 4px;
+    border-style: dotted;
+    border-color: white;
+    display: inline-block;
+font-weight: bold;
+}
+
+#firstname,#lastname,#tel,#date,#time,#people,#email{
+    border-style: solid;
+    padding: 7px;
+}
+b{
+    font-size: 25px;
+}
+
+#button{
+  margin: 10px 2px;
+    background-color: rgb(76 0 0 );
+    color:aliceblue;
+      font-size: 26px;
+padding: 10px 5px;
+    border-radius: 12px;
+border: 8px  color:aliceblue;
+
+}
+::placeholder {
+    font-size: 20px;
+    color: black;
+     text-shadow: 0 0 3px #FF0000;
+    opacity: 0.5;
+
+}
+
+.slide{
+    display: inline-block;
+    width: 178%;
+text-align: center;
+    position: relative;
+left: 200px;
+top: 200px;}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+    margin: auto;
+  vertical-align: middle;
+
+
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+    
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  left: 15px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  right: 15px;
+  border-radius: 3px 0 0 3px;
+
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+right: 0;
+
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding: 2px  425px;
+  color: black;
+    display: inline-block;
+}
+#caption{
+   
+    font-weight: bolder; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+h3{
+font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: 30px;
+margin: 10px 10px 10px 10px;
+
+}
+
+/* Six columns side by side */
+.column {
+  float:left;
+  width: 16.6%;
+
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.head{
+    position: absolute;
+    color: white;
+    top: 370px;
+    left: 550px;
+    font-size: 60px;
+        font-family: 'Righteous', cursive;
+
+}
+#gallery-img{
+    width: 10%;
+    position: absolute;
+    top: 240px;
+    
+}
+
+
+
+
+
+@media (max-width: 1200px) { 
+    .order2{ display: block;width: 100%;left: -180px;}
+    .slide{display:block;position: relative; top:1000px;left: 500px; width: 105%;}
+    footer{position: relative;top: 680px;}
+    .caption-container {  padding: 2px  234px;}
+        .head{top:auto;left:300px;}
+    #gallery-img{top: 1500px;
+    left: 350px;}
+    .next{left: 15px;}
+    .prev{right: 15px;}
+
+
+}
+
+@media (max-width: 992px) {
+    .order2{ display: block;
+width: 100%;left: -180px;}
+        #comment{width: 100%;}
+    h3{display: block; }
+.slide{display:block;position: relative;width: 110%;
+      left: 350px;top:1200px; }
+        .mySlides{width: 100%;}
+    .caption-container {  padding: 2px  196px;}
+    footer{position: relative;top: 680px;}
+    .head{top:auto}
+    #gallery-img{left: 200px;}
+}
+
+@media (max-width: 576px) {
+    .order2{position: relative;left: 10px; display:block; width: 210%; border: 10px;}
+    legend{font-size: 34px;}
+   .slide{display:block;position: relative;width: 100%;
+      left: 220px;top:1080px; }
+    .caption-container {  padding: 2px  148px;}
+        
+
+    .mySlides{width: 180%;}
+    .column {width:30%;}
+    .next {left: -144px;}
+    .prev {right:15px;}
+    footer{position: absolute;top: 1680px;}
+        .img-logo1{display: none;}
+    .img-logo2{display: block; width: 100%; height: 803px;}
+    .head{top:auto;left: 200px;}
+    #gallery-img{display: none;}
+}
+
+@media (max-width: 375px) {
+    h3{font-size: 60px;}
+    .order2{width: 100%}
+    .caption-container {  padding: 2px  115px;}
+        .next {left: 15px;}
+    .slide{top:0px; width: 100%; left: 0px;}
+    .mySlides{width: 100%}
+    footer{top:1750px;}
+    .numbertext{font-size: 30px; left: 220px;}
+    .head{display: none;}
+}

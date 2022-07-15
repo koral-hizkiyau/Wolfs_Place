@@ -1,0 +1,100 @@
+h4{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+        color: white;
+  text-shadow: 2px 2px 4px #000000;
+   font-family: 'Fredericka the Great', cursive;
+
+}
+
+fieldset{
+text-align: center;
+float: left;
+border-style: dotted;
+border-color: aliceblue;
+ margin-bottom: 20px;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+border-width: medium;
+
+}
+
+.title,legend{
+    font-size: 40px;
+text-align: center;
+        color: white;
+  text-shadow: 2px 2px 4px #000000;
+        display: inline-block;
+
+}
+input,textarea{
+    padding: 13px 10px;
+    background-color: #f7f7f7;
+    border:none;
+    font-size: 15px;
+    
+}
+#button{
+  margin: 4px 2px;
+    background-color: rgb(76 0 0 );
+    color:aliceblue;
+      font-size: 20px;
+padding: 10px 5px;
+    border-radius: 12px;
+border: 8px  color:aliceblue;
+
+}
+.title2{
+  margin: 4px 2px;
+    background-color: rgb(76 0 0 );
+    color:aliceblue;
+      font-size: 40px;
+padding: 10px 5px;
+    border-radius: 12px;
+   border: 8px  color:aliceblue;
+ 
+}
+.info2{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+span{
+    font-size:55px;
+}
+
+.contact-image{
+    position: absolute; right: 30px; width: 20%;top: 20%
+}
+
+
+
+@media (max-width: 1200px) {
+    .contact-image{top:95px;right: 10px;}
+
+}
+@media (max-width: 992px) {
+   .img6{width: 100%}
+    .info2{font-size: 33px; text-align: center;  letter-spacing:1px; }   
+    .contact-image{top:110px;}
+}
+@media (max-width: 576px) {
+    .info2{position: relative;right: 70px;width: 150% }   
+.img6{width: 100%}
+        .img-logo1{display: none;}
+    .img-logo2{display: block; width: 100%; height: 803px;}
+    .contact-image{display: none;}
+}
+
+@media (max-width: 375px) {
+    .title{font-size: 30px; }
+ .info2{font-size: 23px;right: 0px;width: 100%}   
+    .contact-image{display: none;}
+    fieldset{width: 100%;}
+    textarea{width: 100%;}
+}

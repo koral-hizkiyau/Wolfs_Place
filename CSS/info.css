@@ -1,0 +1,64 @@
+* {box-sizing:border-box}
+
+
+.info{
+    text-align: center;
+    font-size: 32px;
+        letter-spacing: -.01em;
+        font-family: 'Fredericka the Great', cursive;
+    color: white;
+
+}
+.img4-ban{text-align: center;}
+#cheers_img{
+    position: absolute;
+    right: 78%;
+}
+#h3{
+    text-align: center;
+    font-size: 50px;
+        font-family: 'Fredericka the Great', cursive;
+    color: white;
+          text-shadow: 2px 2px 4px #000000;
+
+}
+.img5{display: inline-block;
+    
+ }
+}
+.text2{text-align: right;
+color: white;}
+
+.beer6{border-style: solid;
+border-color: white;}
+
+.about{ position: absolute;width: 20%;left: 70px;}
+
+
+
+@media (max-width: 1200px) { 
+
+    .about{width: 20%;left: 25px;top: 250px;}
+}
+
+
+
+
+@media (max-width: 992px){
+    .img3,.img4-ban{text-align: right; width: 100%;}
+    .about{display: none;}
+}
+@media (max-width: 576px){
+    #h3{text-align: center;     font-size: 45px;}
+    .img3,.img4-ban{text-align: right; width: 100%;}
+    .info{  text-align: center;   font-size: 22px;}
+    .about{display: none;}
+}
+@media (max-width: 375px){
+    .img5{width: 80%;left: -30px;}
+    #h3{font-size: 31px;}
+        .img3,.img4-ban{text-align: center; width: 95%;}
+    .about{display: none;}
+    .beer6{width: 95%;position: relative;left: 10px;}
+    .info{font-size: 18px;width: 100%;}
+}
